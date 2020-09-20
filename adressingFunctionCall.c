@@ -16,10 +16,7 @@ int main(){
    return 0;
 }
 
-void alanlar(){
-
-
-
-
+void alanlar(int *kare,int *kisa,int *uzun,int *kalan,int *dalan){
+ *kalan=*kare * *kare;
+ *dalan=*kisa * *uzun;
 }
-
