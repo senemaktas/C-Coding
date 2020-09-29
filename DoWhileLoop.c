@@ -6,15 +6,15 @@ int main(){
 
    int key;
    int x=;
-   printf("Bir kaarakter giriniz.....\n");
+   printf("Enter a character.....\n");
    
    do{
       key=getchar();
-      printf(" Döngüden çıkmak için "z" tuşuna basınız.. girilen karakter = %c ve X değeri = %d  \n"key, x++);
+      printf(" Press the "z" key to exit the loop .. the entered character = %c and X value = %d  \n"key, x++);
    
    } while(key !="z");
    
-printf(Döngü burada bitti!..);
+printf("The cycle is over here!..");
 
 return 0;
 }
